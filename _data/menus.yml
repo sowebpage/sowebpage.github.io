@@ -1,8 +1,12 @@
-- default: blog
-  url: 'blog'
+- default: menu_index
+  url: ''
 
-- default: projects
-  url: 'projects'
+- default: menu_category
+  url: 'categories'
 
-- default: about
+- title: 'Jekyll Paper for Github'
+  absoluteUrl: true
+  url: 'https://github.com/ghosind/Jekyll-Paper-Github'
+
+- default: menu_about
   url: 'about'

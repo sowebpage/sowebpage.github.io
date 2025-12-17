@@ -21,10 +21,10 @@
   {% if paginator.page == 1 %}
     {% assign posts_to_show = posts_to_show | where_exp: 'post', 'post.pinned != true' %}
   {% endif %}
-  {% for post in paginator.posts %}
+  {% for post in posts_to_show %}
   <div class="posts-list-item">
     <span class="posts-list-item-name float-left">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </span>
     <span class="posts-list-item-date float-right">
       {{ post.date | date: '%Y-%m-%d' }}

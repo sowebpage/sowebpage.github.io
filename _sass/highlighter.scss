@@ -4,11 +4,11 @@
 // Default
 .highlight{
   --border-color: #ccc;
-  --box-background-color: #eee;
+  --box-background-color: #e6bf8c;
   --box-shadow: rgba(0, 0, 0, 0.1);
 }
 .highlighter-rouge{
-  --background-color-rouge: #eee;
+  --background-color-rouge: #e6bf8c;
 }
 // Overrides
 @media (prefers-color-scheme: dark){

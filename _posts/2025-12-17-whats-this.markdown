@@ -7,6 +7,7 @@ categories: [Welcome]
 pinned: true
 ---
 
-This website serves as my mind dump, where I post about my learnings and projects. 
+Welcome to my museum of things I failed to know before approaching a greater topic. This website will serve as my mind dump, where I post about my learnings and projects. 
+
 
 Thanks for reading.

@@ -43,13 +43,9 @@ a:hover {
   color: #a7795e;
 }
 
-a.clickable {
+.clickable {
   text-decoration: underline;
   color: var(--main-text-color);
-}
-
-a.clickable:hover {
-  color: #a7795e;
 }
 
 blockquote {

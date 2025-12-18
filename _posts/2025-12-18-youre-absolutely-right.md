@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "You're absolutely right"
-date:   2025-12-17
-last_modified_at: 2025-12-17
+date:   2025-12-18
+last_modified_at: 2025-12-18
 categories: [AI]
 pinned: true
 ---

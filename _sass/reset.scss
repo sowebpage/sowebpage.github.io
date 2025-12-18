@@ -48,6 +48,10 @@ a.clickable {
   color: var(--main-text-color);
 }
 
+a.clickable:hover {
+  color: #a7795e;
+}
+
 blockquote {
   margin: 15px;
   padding-left: 15px;

@@ -40,7 +40,12 @@ a {
 }
 
 a:hover {
-  color: #aaa;
+  color: #a7795e;
+}
+
+a.clickable {
+  text-decoration: underline;
+  color: var(--main-text-color);
 }
 
 blockquote {

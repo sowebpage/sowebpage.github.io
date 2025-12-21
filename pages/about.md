@@ -12,5 +12,5 @@ I also like to (attempt to) cook, play + watch basketball, and <a class="clickab
 The easiest way to contact me is through email at <a class="clickable" href="mailto:sanchezner.orange@gmail.com"> sanchezner.orange@gmail.com<a>.<br><br>
 
 ## resume
-View my resume here: <a class="clickable" href="" target="_blank">resume</a>
+View my resume here: <a class="clickable" href="../assets/files/resume.pdf" target="_blank">resume</a>
 

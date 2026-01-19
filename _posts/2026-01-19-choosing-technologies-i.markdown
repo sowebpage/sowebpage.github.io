@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Choosing Technologies I"
-date:   2025-01-19
-last_modified_at: 2025-01-19
+date:   2026-01-19
+last_modified_at: 2026-01-19
 categories: [Data Engineering]
 pinned: false
 ---

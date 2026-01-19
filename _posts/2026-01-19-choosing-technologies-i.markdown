@@ -78,6 +78,6 @@ By understanding the mechanics of row vs. column and point queries vs. scans, th
     <td>PostgreSQL, MySQL, Oracle</td>
     <td>Snowflake, Redshift, BigQuery</td>
   </tr>
-</table>
+</table><br><br>
 
 Until next time.

@@ -21,7 +21,7 @@ OLAP systems are used by analysts and data scientists. This pattern involves sca
 ## Row-Oriented vs Column-Oriented
 Because the access patterns are different, in order to optimize performance, it only makes sense that the physical layouts of the data are different as well.<br><br>
 
-<img width="2209" height="937" alt="Row-Oriented vs Column-Oriented visual" src="../assets/images/row_vs_column_visual.png" />
+![Row-Oriented vs Column-Oriented Visual](/assets/images/row_vs_column_visual.png)
 
 OLTP uses row-oriented databases like PostgreSQL and MySQL, where data is laid out in rows. In a row-oriented database, all columns for a row are stored together on disk and in memory. Because of this, when you fetch a singular row, the database reads one contiguous chunk of data, and gets everything it needs in a single I/O. For row stores, updates are just a rewrite of part of a row.<br><br>
 

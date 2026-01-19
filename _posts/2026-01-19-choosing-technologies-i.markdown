@@ -7,8 +7,6 @@ categories: [Data Engineering]
 pinned: false
 ---
 
-# Choosing Technologies I
-
 Look through any Data Engineering role's job description and you'll be bombarded with the heavy stuff: *Spark, Kafka, Databricks, Snowflake, etc.* It's always enticing (at least for me) to look at these "big data" tools and try to shoehorn them into my projects for the sake of saying I've used them, but I recently learned to adopt a new philosophy: **it's more important that you know what not to use than what you can use.** It sounds trivial, and it probably is to some, but I'm not exaggerating when I say this idea completely changed the way I've learned to understand new technologies.
 
 Instead of looking for the "best" tool to do something, we should look for the tool whose design and limits most closely align with whatever circumstances we have in regards to the data we're working with. To put it simply, there are no perfect solutions that work in every situation; **the process of choosing technologies is simply the process of evaluating tradeoffs.** As a data engineer, one of the most critical steps in this process is identifying your access pattern: OLTP (Online Transaction Processing) or OLAP (Online Analytical Processing). 

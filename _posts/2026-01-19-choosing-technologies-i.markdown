@@ -42,13 +42,42 @@ By understanding the mechanics of row vs. column and point queries vs. scans, th
 "Knowing what not to use" really just means knowing your system. The "heavy stuff" isn't better because all of the biggest companies use them; it's better because it falls into line with their goals.<br><br>
 
 ## TL;DR
-| Feature | OLTP (Operational) | OLAP (Analysis)|
-| --- | --- | --- |
-| Primary Goal | Run the business (transactions) | Improve the business (analysis) |
-| Access Pattern | Point queries (read/write single rows) | Scans (read many rows, few columns) |
-| Latency | Milliseconds | Seconds, minutes, maybe hours |
-| Storage Layout | Row-Oriented (keep user records together) | Column-Oriented (keep metric data together) |
-| Schema | Normalized (reduced redundancies) | Star/Snowflake (optimized for reading) |
-| Tools | PostgreSQL, MySQL, Oracle | Snowflake, Redshift, BigQuery |
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>OLTP (Operational)</th>
+    <th>OLAP (Analysis)</th>
+  </tr>
+  <tr>
+    <td>Primary Goal</td>
+    <td>Run the business (transactions)</td>
+    <td>Improve the business (analysis)</td>
+  </tr>
+  <tr>
+    <td>Access Pattern</td>
+    <td>Point queries (read/write single rows)</td>
+    <td>Scans (read many rows, few columns)</td>
+  </tr>
+  <tr>
+    <td>Latency</td>
+    <td>Milliseconds</td>
+    <td>Seconds, minutes, maybe hours</td>
+  </tr>
+  <tr>
+    <td>Storage Layout</td>
+    <td>Row-Oriented (keep user records together)</td>
+    <td>Column-Oriented (keep metric data together)</td>
+  </tr>
+  <tr>
+    <td>Schema</td>
+    <td>Normalized (reduced redundancies)</td>
+    <td>Star/Snowflake (optimized for reading)</td>
+  </tr>
+  <tr>
+    <td>Tools</td>
+    <td>PostgreSQL, MySQL, Oracle</td>
+    <td>Snowflake, Redshift, BigQuery</td>
+  </tr>
+</table>
 
 Until next time.

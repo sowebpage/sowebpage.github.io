@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Choosing Technologies I"
+title:  "Choosing Technologies II"
 date:   2026-02-01
 last_modified_at: 2026-02-01
 categories: [Data Engineering]

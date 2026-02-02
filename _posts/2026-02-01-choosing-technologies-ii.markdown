@@ -2,7 +2,7 @@
 layout: post
 title:  "Choosing Technologies II"
 date:   2026-02-01
-last_modified_at: 2026-02-01
+last_modified_at: 2026-02-02
 categories: [Data Engineering]
 pinned: false
 ---

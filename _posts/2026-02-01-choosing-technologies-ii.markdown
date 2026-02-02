@@ -13,14 +13,14 @@ We last talked about OLTP vs OLAP databases, and why each of them work for some 
 
 ## Data Modeling
 
-Data modeling is the process of deciding how data is structured, stored, and related in databases in a way that is correct for the business, efficient for the system, and easy to use for us humans. We’re answering questions like:
+Data modeling is the process of deciding how data is structured, stored, and related in databases in a way that is correct for the business, efficient for the system, and easy to use for us humans. We’re answering questions like:<br><br>
 
 - What things do we store?
 - What properties do they have?
 - How do they relate to one another?
 - What rules apply?
 
-It’s almost like we’re drawing a blueprint. We aren’t writing any queries yet, but we’re deciding what everything looks like in data form. <br><br>
+<br><br>It’s almost like we’re drawing a blueprint. We aren’t writing any queries yet, but we’re deciding what everything looks like in data form. <br><br>
 
 What I’ve just described is the **conceptual layer** of data modeling. It’s the highest-level of data modeling, where the goal is to accurately capture reality.<br><br>
 

@@ -7,11 +7,11 @@ categories: [Data Engineering]
 pinned: false
 ---
 
-Impedance mismatch isn’t just a boundary condition issue in electrical engineering. In databases, it describes the friction between how application code is usually written and how relational databases store its data.
+Impedance mismatch isn’t just a boundary condition issue in electrical engineering. In databases, it describes the friction between how application code is usually written and how relational databases store its data. <br><br>
 
-Today I wanted to learn more about NoSQL and why exactly one would want to use it, so here we are. This marks the threequel of my Choosing Technologies series, and I’m thinking of writing other entries in between these because as I get deeper into this, the more holes I find in my knowledge, and I fear this will never end. 
+Today I wanted to learn more about NoSQL and why exactly one would want to use it, so here we are. This marks the threequel of my Choosing Technologies series, and I’m thinking of writing other entries in between these because as I get deeper into this, the more holes I find in my knowledge, and I fear this will never end. <br><br>
 
-Anyway,
+Anyway...<br><br>
 
 ## Relational vs Document / SQL vs NoSQL
 

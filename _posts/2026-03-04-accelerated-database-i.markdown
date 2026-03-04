@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “Accelerated Database I”
+title:  "Accelerated Database I"
 date:   2026-03-04
 last_modified_at: 2026-03-04
 categories: [Devlog]

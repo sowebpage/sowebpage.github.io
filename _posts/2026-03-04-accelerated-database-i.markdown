@@ -31,7 +31,7 @@ Blocks are groups of threads, and are mapped onto corresponding sets of CUDA cor
 
 Grids are groups of blocks, and are mapped onto the entire GPU and its memory. Each kernel launch creates a single grid.<br><br>
 
-![Grid mapped to GPU visual](/assets/images/grid_to_gpu_visual.jpeg)
+![Grid mapped to GPU visual](/assets/images/grid_to_gpu_visual.png)
 
 This is the very basic idea of what we'll be utilizing within the GPU, and I plan to go further into technical depth as we progress with the project.
 

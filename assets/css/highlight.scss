@@ -11,7 +11,7 @@
 
 // Overrides
 @media (prefers-color-scheme: dark){
-  code{
+  .highlight code {
     filter: invert(1) hue-rotate(180deg);
   }
 }

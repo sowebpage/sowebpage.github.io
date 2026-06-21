@@ -58,6 +58,23 @@
   .highlight {
     margin: 1.25em 0;
   }
+
+  // Inline `code` — not fenced blocks
+  :not(pre) > code.highlighter-rouge {
+    font-size: 0.9em;
+    padding: 0.12em 0.35em;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :not(pre) > code.highlighter-rouge {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+  }
 }
 
 .post-content img {

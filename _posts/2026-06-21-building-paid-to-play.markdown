@@ -17,7 +17,7 @@ What shipped is still a daily scatter of predicted BPM vs. cap %, but with a tre
 
 This shift happened in the middle of the build and for a rather specific reason.
 
-I’d already known salary wasn’t a function of BPM. Age, bird rights, max rules, injury histories, and more all go into the construction of a contract. What broke the original design was trying to compute fair value anyway. I built a replacement-level formula that gave a sub-replacement player a \$0 fair salary. Klay Thompson got zero. Half the league looked “correctly unpaid”, and it was my fault.
+I’d already known salary wasn’t a function of BPM. Age, bird rights, max rules, injury histories, and more all go into the construction of a contract. What broke the original design was trying to compute fair value anyway. I built a replacement-level formula that gave a sub-replacement player a $0 fair salary. Klay Thompson got zero. Half the league looked “correctly unpaid”, and it was my fault.
 
 The fix wasn’t adding more features I couldn’t source. It was downgrading the claim: fit an isotonic curve on 25 years of `(BPM, cap%)` pairs and call it a historical trend, not a verdict. Same scatter, but different question: not what should this player earn? but where does this player sit relative to what the league has paid historically?
 
@@ -61,7 +61,7 @@ Model 2 was supposed to draw the “fair market line” through the scatter. I d
 
 It ran, and the results were embarrassing.
 
-Sub-replacement players got **zeroed out** completely. Klay Thompson: \$0 fair salary. The formula basically said if your projected BPM is below -2.0 you deserve nothing. If I were measuring surplus win shares, maybe, just maybe you could at least try defending this. It isn’t defensible for my chart though. The market doesn’t pay \$0 to ‘bad’ players... it paid the minimum.
+Sub-replacement players got **zeroed out** completely. Klay Thompson: $0 fair salary. The formula basically said if your projected BPM is below -2.0 you deserve nothing. If I were measuring surplus win shares, maybe, just maybe you could at least try defending this. It isn’t defensible for my chart though. The market doesn’t pay $0 to ‘bad’ players... it paid the minimum.
 
 So now, I had two options:
 

@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 ## my projects
-<a class="clickable" href="https://github.com/sanchezner/paid-to-play" target="_blank">Paid to Play</a>: 
+<a class="clickable" href="https://github.com/sanchezner/paid-to-play" target="_blank">Paid to Play</a>: analyze NBA player salaries against their performances and compare to historical trends
 
 <a class="clickable" href="https://github.com/sanchezner/sixth-man" target="_blank">Sixth Man</a>: find the shortest path of mutual teammates between two of your favorite NBA players
 

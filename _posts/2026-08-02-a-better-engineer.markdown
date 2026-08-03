@@ -13,7 +13,7 @@ I was recently given a task that I had no prior exposure to. It wasn't hard, and
 
 I thought through the problem, and still, I had no idea how to solve it. Eventually, I was given some direction and ended up solving it. But I was bothered. What, in retrospect, seemed so simple took me (what I believed to be) far too long to figure out, and worst of all, I couldn't do this simple task myself.
 
-Looking back, what actually slowed me down wasn't the task itself. It was how I imagined a good engineer would perform in that scenario.. someone who doesn't get stuck and doesn't need to be shown the way. So when I got stuck, I didn't experience it as learning something new. I experienced it as failling.
+Looking back, what actually slowed me down wasn't the task itself. It was how I imagined a good engineer would perform in that scenario.. someone who doesn't get stuck and doesn't need to be shown the way. So when I got stuck, I didn't experience it as learning something new. I experienced it as failing.
 
 A few days later, I happened to run into a situation where I needed to implement that same task. And so again, I thought through the problem, but this time I was able to solve it.. immediately, and without help.
 

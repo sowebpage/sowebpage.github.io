@@ -96,7 +96,7 @@ The status field is what I care most about, because it's what I got wrong last t
 
 The source of truth is stats via [nba_api](https://github.com/swar/nba_api), normalized into Postgres in the shape you'd expect: teams, players, referees, games (with season/season type from a game log), referee assignments, player and team box scores, and fouls drawn.
 
-An important constraint I want to address is that `nba_api`/stats.nba.com is unreliable from many cloud IPs, so ingestion will run where the API allows (locally), and the app will read the database.
+An important constraint I want to address is that nba_api/stats.nba.com is unreliable from many cloud IPs, so ingestion will run where the API allows (locally), and the app will read the database.
 
 From there, each metric will be a SQL template filled from the IR: same joins (stat line -> game -> assignment), different measures and subject grains. Nothing generates SQL on the fly to answer a question the catalog doesn't already know about; if it's not a template, it's not an answer.
 

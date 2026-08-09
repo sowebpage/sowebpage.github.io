@@ -1,18 +1,45 @@
 @charset "utf-8";
 
 .page-title {
-  text-align: center;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.35em;
 }
 
 .page-author {
   display: none;
 }
 
-.page-content p {
-  line-height: 20px;
+.page-content {
+  line-height: 1.65;
+
+  p {
+    margin-bottom: 1.25em;
+    line-height: 1.65;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .posts-list-item {
+    margin: 0.4rem 0;
+  }
+
+  .posts-list-item-name {
+    width: 40%;
+  }
+
+  .posts-list-item-date {
+    width: 58%;
+    max-width: none;
+    text-align: right;
+  }
 }
 
 .page-content img {
   display: block;
+  max-width: 100%;
+  height: auto;
   margin: 10px auto;
 }

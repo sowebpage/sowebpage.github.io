@@ -3,8 +3,7 @@ layout: post
 title:  "A better engineer"
 date:   2026-08-02
 last_modified_at: 2026-08-02
-categories: [Reflection]
-pinned: false
+featured: true
 ---
 
 What exactly does it mean to be a good engineer? 

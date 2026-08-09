@@ -3,15 +3,45 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-## my projects
-<a class="clickable" href="https://github.com/sanchezner/attest" target="_blank">attest</a>: know whether your pipeline outputs are healthy — present, fresh, and meeting your rules
 
-<a class="clickable" href="https://github.com/sanchezner/paid-to-play" target="_blank">Paid to Play</a>: analyze NBA player salaries against their performances and compare to historical trends
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/attest" target="_blank" rel="noopener">attest</a>
+  </span>
+  <span class="posts-list-item-date float-right">catch bad pipeline data before it ships</span>
+</div>
 
-<a class="clickable" href="https://github.com/sanchezner/sixth-man" target="_blank">Sixth Man</a>: find the shortest path of mutual teammates between two of your favorite NBA players
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/paid-to-play" target="_blank" rel="noopener">Paid to Play</a>
+  </span>
+  <span class="posts-list-item-date float-right">are NBA stars actually earning it?</span>
+</div>
 
-<a class="clickable" href="https://github.com/oh-nought/radxa-monitor" target="_blank">Radxa Monitor</a>: real-time telemetry data streaming that helps you find out what's bottlenecking your SBC
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/sixth-man" target="_blank" rel="noopener">Sixth Man</a>
+  </span>
+  <span class="posts-list-item-date float-right">Kevin Bacon, but for NBA teammates</span>
+</div>
 
-<a class="clickable" href="https://github.com/oh-nought/ball-dont-lie" target="_blank">ball don't lie [WIP]</a>: query and discover referee bias (or lack thereof) for teams and players in the NBA<br>
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/radxa-monitor" target="_blank" rel="noopener">Radxa Monitor</a>
+  </span>
+  <span class="posts-list-item-date float-right">live bottlenecks on bare-metal SBCs</span>
+</div>
 
-<a class="clickable" href="https://github.com/oh-nought/LANdToss" target="_blank"> LANdToss</a>: like AirDrop but on your LAN... and you don't drop files, you toss them...
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/bdl" target="_blank" rel="noopener">ball don't lie [WIP]</a>
+  </span>
+  <span class="posts-list-item-date float-right">query the refs, not just the box score</span>
+</div>
+
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/LANdToss" target="_blank" rel="noopener">LANdToss</a>
+  </span>
+  <span class="posts-list-item-date float-right">AirDrop for your LAN</span>
+</div>

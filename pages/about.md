@@ -3,14 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
-## me
-Hi. I'm a third-year student at the University of Florida studying Computer Science. While my academics keep me grounded in theory, my true passion lies in **data engineering** and **MLOps**, or more broadly, the 'behind the scenes' of AI.
 
-I also like to (attempt to) cook, play + watch basketball, and <a class="clickable" href="https://letterboxd.com/chezburgur/" target="_blank">indulge in motion pictures</a>.<br><br>
+Hi. I'm a third-year CS student at the University of Florida. I'm most interested in **Machine Learning**, particularly the boring reliability stuff that has to work for it to matter.
 
-## contact 
-The easiest way to contact me is through email at <a class="clickable" href="mailto:sanchezner.orange@gmail.com"> sanchezner.orange@gmail.com<a>.<br><br>
+I also like to (attempt to) cook, play + watch basketball, and <a class="clickable" href="https://letterboxd.com/chezburgur/" target="_blank" rel="noopener">indulge in motion pictures</a>.
 
-## resume
-View my resume here: <a class="clickable" href="../assets/files/resume.pdf" target="_blank">resume</a>
+<!-- The easiest way to contact me is through email at <a class="clickable" href="mailto:sanchezner.orange@gmail.com">sanchezner.orange@gmail.com</a>. -->
 
+Feel free to check out my resume here: <a class="clickable" href="{{ '/assets/files/resume.pdf' | relative_url }}" target="_blank" rel="noopener">resume</a>.

@@ -2,19 +2,21 @@
 
 .container-wrapper {
   width: 100%;
-  margin: 0 auto;
-  max-width: 800px;
+  max-width: 46rem;
+  margin: 0;
+  padding: 1.5rem 2.5rem 3rem;
+  box-sizing: border-box;
 }
 
 .container-header {
   width: 100%;
-  padding: 10px 0;
+  padding: 0.5rem 0 1rem;
   overflow: hidden;
 }
 
 .container-main {
-  width: 95%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 0;
   overflow: hidden;
   min-height: calc(100vh - 159px);
 }

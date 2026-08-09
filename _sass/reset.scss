@@ -2,8 +2,14 @@
 
 // Variables for light and dark mode
 // Default
+:root {
+  --main-text-color: #111;
+  --main-background-color: #fff;
+  --accent-color: #9f5800;
+}
+
 th,
-tbody{
+tbody {
   --background-color: #f5f5f5;
 }
 
@@ -19,12 +25,43 @@ tbody{
 //   }
 // }
 
-// @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'XCharter';
+  src: url('../fonts/xcharter-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'XCharter';
+  src: url('../fonts/xcharter-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'XCharter';
+  src: url('../fonts/xcharter-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'XCharter';
+  src: url('../fonts/xcharter-bold-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu Mono', monospace;
 }
 
 html,
@@ -32,6 +69,19 @@ body {
   height: 100%;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
+  font-family: 'XCharter', Charter, 'Bitstream Charter', Georgia, serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+code,
+kbd,
+pre,
+samp,
+.highlight,
+.highlighter-rouge {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
 }
 
 a {
@@ -40,7 +90,7 @@ a {
 }
 
 a:hover {
-  color: #9f5800;
+  color: var(--accent-color);
 }
 
 .clickable {
@@ -60,13 +110,14 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: normal;
+  line-height: 1.25;
   margin: 5px 0;
   text-indent: 0;
+  // font-weight: 700;
 }
 
 h1 {
-  font-weight: 300;
+  // font-weight: 700;
 }
 
 h2 {
@@ -79,7 +130,8 @@ hr {
 }
 
 img {
-  max-width: 700px;
+  max-width: 100%;
+  height: auto;
 }
 
 ol,
@@ -93,21 +145,27 @@ p {
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
 }
 
 tbody tr:hover {
   background-color: var(--background-color);
 }
 
-td {
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
+td,
+th {
+  padding: 0.55em 0.75em;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  vertical-align: top;
 }
 
 th {
-  padding: 8px;
-  border-bottom: 1px solid #ccc;
   background: var(--background-color);
+  font-weight: 700;
 }
 
 // markdown reset

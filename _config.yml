@@ -5,10 +5,11 @@
 title: Sanchezner Orange
 email: your-email@example.com
 name: Sanchezner Orange
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
+  Welcome to my museum of things I failed to know before approaching a greater topic.
 baseurl: '' # the subpath of your site, e.g. /`blog
-url: 'https://oh-nought.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
-domain: 'oh-nought.github.io' # the domain name for your site, e.g. example.com
+url: 'https://sanchezner.com/' # the base hostname & protocol for your site, e.g. http://example.com
+domain: 'sanchezner.com' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:
 # en: English

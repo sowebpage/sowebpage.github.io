@@ -3,8 +3,7 @@ layout: post
 title:  "Choosing Technologies I"
 date:   2026-01-19
 last_modified_at: 2026-01-19
-categories: [Data Engineering]
-pinned: false
+featured: false
 ---
 
 Look through any Data Engineering role's job description and you'll be bombarded with the heavy stuff: *Spark, Kafka, Databricks, Snowflake, etc.* It's always enticing (at least for me) to look at these "big data" tools and try to shoehorn them into my projects for the sake of saying I've used them, but I recently learned to adopt a new philosophy: **it's more important that you know what not to use than what you can use.** It sounds trivial, and it probably is to some, but I'm not exaggerating when I say this idea completely changed the way I've learned to understand new technologies.

@@ -3,8 +3,7 @@ layout: post
 title:  "Choosing Technologies III"
 date:   2026-02-04
 last_modified_at: 2026-02-04
-categories: [Data Engineering]
-pinned: false
+featured: false
 ---
 
 Impedance mismatch isn’t just a boundary condition issue in electrical engineering. In databases, it describes the friction between how application code is usually written and how relational databases store its data.

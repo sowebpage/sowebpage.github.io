@@ -3,8 +3,7 @@ layout: post
 title:  "Building Paid to Play"
 date:   2026-06-21
 last_modified_at: 2026-06-21
-categories: [Devlog]
-pinned: false
+featured: false
 ---
 
 I’ve been working on <span class="clickable">[this app](https://www.sanchezner.com/paid-to-play)</span> for the past two months. In this post, I’ll be talking about how I built it and why the most important decision was admitting the chart couldn’t answer the question I originally wanted it to.

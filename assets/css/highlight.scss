@@ -9,23 +9,18 @@
 
 @charset "utf-8";
 
-// Overrides
-@media (prefers-color-scheme: dark){
-  .highlight code {
-    filter: invert(1) hue-rotate(180deg);
-  }
-}
-
 .highlight {
   table {
     td {
       padding: 5px;
+      border: none;
     }
 
     pre {
       margin: 0;
     }
   }
+
 
   // Specially highlighted whitespace
   .w {

@@ -2,16 +2,24 @@
 
 .post-title {
   text-align: left;
+  font-size: 1em;
+  margin-bottom: 0.25rem;
+}
+
+.post-date {
+  text-align: right;
+  color: #666;
+  margin: 2rem 0 0;
+  font-size: 0.9em;
 }
 
 .post-content {
-  // scrollable for mobile devices
-  overflow-x: scroll;
+  overflow-x: visible;
   line-height: 1.7;
 
   p {
     margin-bottom: 1.25em;
-    line-height: 1.5;
+    line-height: 1.65;
 
     &:last-child {
       margin-bottom: 0;
@@ -54,9 +62,28 @@
     margin: 2em 0;
   }
 
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
   pre,
-  .highlight {
+  .highlight,
+  .math-container {
     margin: 1.25em 0;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  div.highlighter-rouge {
+    margin: 1.25em 0;
+  }
+
+  div.highlighter-rouge .highlight,
+  div.highlighter-rouge pre {
+    margin: 0;
   }
 
   // Inline `code` — not fenced blocks
@@ -82,12 +109,3 @@
   margin: 10px auto;
 }
 
-.post-info {
-  line-height: 24px;
-  margin: 10px 0;
-}
-
-.post-category,
-.post-tag {
-  margin: 0 5px;
-}

@@ -1,15 +1,24 @@
 @charset "utf-8";
 
 @media screen and (max-width: 768px) {
+  .container-wrapper {
+    padding: 1rem 1.25rem 2rem;
+    max-width: 100%;
+  }
+
   /* reset default styles */
   img {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
   }
 
   /* Posts list */
   .list-pagination {
     margin: 10px 0 5px 0;
+  }
+
+  .posts-list-item-name {
+    width: calc(100% - 6rem);
   }
 
   /* Footer */

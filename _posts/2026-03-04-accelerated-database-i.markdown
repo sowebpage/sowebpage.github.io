@@ -3,8 +3,7 @@ layout: post
 title:  "Accelerated Database I"
 date:   2026-03-04
 last_modified_at: 2026-03-04
-categories: [Devlog]
-pinned: false
+featured: false
 ---
 
 I recently found an old RX 580 of mine and got the idea to build an accelerated database. I'm going into this completely blind, having no experience with parallel computing, and will be typing this as I progress. I want this devlog to be a bit more 'docs-like' so the tone in this series won't be as conversational as my other posts, but instead a bit more formal. I'd also like to preface that most of my notes for this post came directly from <a class="clickable" href="https://www.youtube.com/playlist?list=PLC6u37oFvF40BAm7gwVP7uDdzmW83yHPe" target="_blank">Josh Holloway's Intro to CUDA series</a> on YouTube. Without further ado, the project.

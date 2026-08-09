@@ -3,8 +3,7 @@ layout: post
 title:  "You're absolutely right"
 date:   2025-12-18
 last_modified_at: 2025-12-18
-categories: [AI]
-pinned: false
+featured: false
 ---
 
 Thank you, ChatGPT, for acknowledging the fact that you've deliberately given me the wrong answer for the 4th time in a row. Technically, I'd be wrong to say 'deliberately', as it doesn't _know_ that it's wrong or if I'm wrong about it being wrong for that matter; it only seems this way because LLMs are yes-men.

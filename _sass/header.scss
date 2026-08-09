@@ -3,12 +3,22 @@
 .header-info {
   display: block;
   position: relative;
-  margin: 10px;
+  margin: 0 0 0.75rem;
 }
 
 .header-info-name {
-  font-size: 2em;
-  font-weight: 300;
+  font-size: 1.55em;
+  letter-spacing: -0.01em;
+  color: inherit;
+}
+
+.header-info-tagline {
+  display: block;
+  margin-top: 0.4rem;
+  max-width: 39em;
+  font-size: 0.88em;
+  line-height: 1.45;
+  color: #777;
 }
 
 .header-info-desc {
@@ -24,6 +34,20 @@
   display: block;
   position: relative;
   float: left;
-  line-height: 24px;
-  margin: 0 10px;
+  line-height: 1.6;
+  margin: 0 1rem 0 0;
+  font-size: 1em;
+}
+
+.header-main-nav-item a:hover,
+.header-main-nav-item a[aria-current="page"] {
+  color: var(--accent-color, #9f5800);
+}
+
+.header-info--post {
+  margin-bottom: 0.1rem;
+}
+
+a.header-info-name:hover {
+  color: var(--accent-color, #9f5800);
 }

@@ -3,8 +3,7 @@ layout: post
 title:  "Pregame: Rebuilding Ball Don't Lie"
 date:   2026-08-05
 last_modified_at: 2026-08-05
-categories: [Devlog]
-pinned: false
+featured: false
 ---
 
 A few months ago, I built [Ball Don’t Lie](https://github.com/sanchezner/bdl), a [StatMuse-inspired](https://statmuse.com) sports search engine that would allow users to query insights regarding NBA officials. Someone could ask “How many fouls does Chris Paul commit per game with Scott Foster?” and it would process that query and return a result… in theory. 

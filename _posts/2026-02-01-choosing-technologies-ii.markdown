@@ -4,6 +4,8 @@ title:  "Choosing Technologies II"
 date:   2026-02-01
 last_modified_at: 2026-02-02
 featured: false
+archived: true
+permalink: /archive/:year/:month/:day/:title
 ---
 
 As I’m reading my notes, I’ve come to the realization that this series is going to be all over the place, so I’ll try to keep it coherent, but I can’t make any promises.

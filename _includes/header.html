@@ -1,10 +1,14 @@
+{% assign archive_url = site.baseurl | append: '/archive/' %}
 {% if page.layout == 'post' %}
 <div class="header-info header-info--post">
   <a class="header-info-name" href="{{ site.baseurl }}/">{{ site.title }}</a>
 </div>
 {% else %}
 <div class="header-info">
-  <span class="header-info-name">{{ site.title }}</span>
+  <div class="header-info-title">
+    <span class="header-info-name">{{ site.title }}</span>
+    <a class="header-archive" href="{{ archive_url }}" title="Archive" aria-label="Archive"{% if page.url == '/archive/' %} aria-current="page"{% endif %}>{% include archive-icon.html %}</a>
+  </div>
   {% if site.description and site.description != '' %}
   <span class="header-info-tagline">{{ site.description }}</span>
   {% endif %}

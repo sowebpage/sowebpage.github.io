@@ -1,5 +1,13 @@
 <div class="container-posts">
-  {% for post in paginator.posts %}
+  {% if include.archive %}
+    {% assign post_list = site.posts | where_exp: "post", "post.archived == true" %}
+  {% else %}
+    {% assign post_list = site.posts | where_exp: "post", "post.archived != true" %}
+  {% endif %}
+  {% if include.archive and post_list.size == 0 %}
+  <p class="posts-empty">Nothing archived yet.</p>
+  {% endif %}
+  {% for post in post_list %}
   <div class="posts-list-item">
     <span class="posts-list-item-name float-left">
       {% if post.featured %}
@@ -12,21 +20,4 @@
     </span>
   </div>
   {% endfor %}
-  {% if paginator.total_pages > 1 %}
-  <div class="list-pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="float-left">
-      {{ site.data.lang[site.language].paginator_previous }}
-    </a>
-    {% endif %}
-    <span class="page_number">
-      {{ site.data.lang[site.language].paginator_pages }}{{ paginator.page }} / {{ paginator.total_pages }}
-    </span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="float-right">
-      {{ site.data.lang[site.language].paginator_next }}
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
 </div>

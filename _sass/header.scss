@@ -6,10 +6,34 @@
   margin: 0 0 0.75rem;
 }
 
+.header-info-title {
+  display: flex;
+  align-items: center;
+  gap: 0.38em;
+}
+
 .header-info-name {
   font-size: 1.55em;
   letter-spacing: -0.01em;
+  line-height: 1.15;
   color: inherit;
+}
+
+.header-archive {
+  display: flex;
+  color: #888;
+  line-height: 0;
+}
+
+.header-archive-icon {
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.header-archive:hover,
+.header-archive[aria-current="page"] {
+  color: var(--accent-color, #9f5800);
 }
 
 .header-info-tagline {

@@ -27,7 +27,7 @@ permalink: /projects/
 
 <div class="posts-list-item">
   <span class="posts-list-item-name float-left">
-    <a class="clickable" href="https://github.com/sanchezner/radxa-monitor" target="_blank" rel="noopener">Radxa Monitor</a>
+    <a class="clickable" href="https://github.com/sanchezner/ztop" target="_blank" rel="noopener">ztop</a>
   </span>
   <span class="posts-list-item-date float-right">live bottlenecks on bare-metal SBCs</span>
 </div>

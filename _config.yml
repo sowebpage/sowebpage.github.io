@@ -9,6 +9,15 @@ description: >-
   Welcome to my museum of things I failed to know before approaching a greater topic.
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: 'https://sanchezner.com/' # the base hostname & protocol for your site, e.g. http://example.com
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/og-default.png
+        width: 1200
+        height: 627
+        alt: Sanchezner Orange
 domain: 'sanchezner.com' # the domain name for your site, e.g. example.com
 language: en
 # Supported languages list:

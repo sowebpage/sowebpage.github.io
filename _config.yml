@@ -14,7 +14,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/images/og.png
+        path: /assets/images/og-default.png
         width: 1200
         height: 627
         alt: Sanchezner Orange

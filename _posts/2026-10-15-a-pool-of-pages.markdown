@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A cache, then a batch"
+title:  "A pool of pages"
 date:   2026-10-15
 last_modified_at: 2026-10-15
 featured: false

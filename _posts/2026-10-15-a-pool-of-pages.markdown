@@ -4,6 +4,8 @@ title:  "A pool of pages"
 date:   2026-10-15
 last_modified_at: 2026-10-15
 featured: false
+archived: true
+permalink: /archive/:year/:month/:day/:title
 ---
 
 Last time, the tokens matched and the continuous batch still paid for a rectangle. `cache_cat` glued the live caches every step, and a longer arrival rewrote every resident key through `cache_pad_left`. The copy was the cost of one shared length. Now, each sequence keeps its own length on a shared pool of pages, so admitting someone doesn't restack everyone else.

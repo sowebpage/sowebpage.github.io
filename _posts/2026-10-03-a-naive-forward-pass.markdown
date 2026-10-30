@@ -4,6 +4,8 @@ title:  "A naive forward pass on GPT-2-small"
 date:   2026-10-03
 last_modified_at: 2026-10-03
 featured: false
+archived: true
+permalink: /archive/:year/:month/:day/:title
 ---
 
 Inference serving and runtimes are about making a recipe fast without changing the answer. The recipe here is the forward pass. Being a recipe, working in inference runtime/serving and distributed training rarely ever involves inventing it. People in these jobs only have to know it well enough to notice when a shortcut changed the result. So that's what brings me here.

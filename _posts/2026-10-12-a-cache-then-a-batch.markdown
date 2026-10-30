@@ -4,6 +4,8 @@ title:  "A cache, then a batch"
 date:   2026-10-12
 last_modified_at: 2026-10-12
 featured: false
+archived: true
+permalink: /archive/:year/:month/:day/:title
 ---
 
 Last time, I got the scores to match. There was a single prompt for a GPT-2-small, every block was made from scratch, and the biggest gap in the score vector was about 0.0002. `' the'` stayed first. Since then, I've gotten a few things done.

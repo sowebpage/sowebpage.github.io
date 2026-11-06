@@ -8,14 +8,14 @@ permalink: /projects/
   <span class="posts-list-item-name float-left">
     <a class="clickable" href="https://github.com/sanchezner/inference-router" target="_blank" rel="noopener">inference router</a>
   </span>
-  <span class="posts-list-item-date float-right">Go router for LLM inference workers, built in supplement to my engine</span>
+  <span class="posts-list-item-date float-right">supplemental Go router for LLM inference workers</span>
 </div>
 
 <div class="posts-list-item">
   <span class="posts-list-item-name float-left">
     <a class="clickable" href="https://github.com/sanchezner/inference-engine" target="_blank" rel="noopener">minimal inference engine</a>
   </span>
-  <span class="posts-list-item-date float-right">LLM inference engine from scratch for deeper understanding</span>
+  <span class="posts-list-item-date float-right">LLM inference engine from scratch</span>
 </div>
 
 <div class="posts-list-item">

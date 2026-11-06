@@ -6,6 +6,20 @@ permalink: /projects/
 
 <div class="posts-list-item">
   <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/inference-router" target="_blank" rel="noopener">inference router</a>
+  </span>
+  <span class="posts-list-item-date float-right">Go router for LLM inference workers, built in supplement to my engine</span>
+</div>
+
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
+    <a class="clickable" href="https://github.com/sanchezner/inference-engine" target="_blank" rel="noopener">minimal inference engine</a>
+  </span>
+  <span class="posts-list-item-date float-right">LLM inference engine from scratch for deeper understanding</span>
+</div>
+
+<div class="posts-list-item">
+  <span class="posts-list-item-name float-left">
     <a class="clickable" href="https://github.com/sanchezner/attest" target="_blank" rel="noopener">attest</a>
   </span>
   <span class="posts-list-item-date float-right">catch bad pipeline data before it ships</span>
